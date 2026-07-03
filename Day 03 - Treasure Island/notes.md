@@ -1,7 +1,9 @@
-if else statement statement like we studied in linux 
+if else elif statement statement like we studied in linux 
 can use like this if:
-else:    
+else:   
+elif:
 we can write variable and operators too before colon
+.lower() is a string method which converts text into small letters. Have used in treasure_isaland.py game
 
 
 Comparison operators 
