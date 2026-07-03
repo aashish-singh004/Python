@@ -35,3 +35,37 @@ The nested if only runs if the first if is already True.
 
 elif means "else if".
 It is written between if and else when we want to check multiple conditions.
+
+
+In short words, the outer if checks the main condition first.
+If it is true. then the python enters the block and check another condition using if-elif-else. 
+Memory trick - Outer if= Can i enter 
+               Inner if-elif-else = Now what should i do?
+
+I made a pizza outlet ordering thing- 
+
+topping= input("To add pepperoni , Press Y or N ")
+cheese= input("To add cheese , Press Y or N ")
+print("Welcome to our Pizza Outlet")
+bill = 0
+
+# Pizza size
+if user == "S":
+    bill += 15
+elif user == "M":
+    bill += 20
+elif user == "L":
+    bill += 25
+#we can either write billl = bill + 25 or straight bill +=3 , both are same.
+# Pepperoni
+if topping == "Y":
+    if user == "S":
+        bill += 2
+    else:
+        bill += 3
+
+# Cheese
+if cheese == "Y":
+    bill += 1
+
+print(f"Your final bill is: ${bill}")
