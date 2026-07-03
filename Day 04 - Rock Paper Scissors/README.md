@@ -1,4 +1,4 @@
-Day 04 4th of july
+Day 04
 
 It was lil bit tough today and confusing, but anyways it was fun making rock paper, scissors game. 
 
