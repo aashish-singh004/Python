@@ -47,25 +47,38 @@ I made a pizza outlet ordering thing-
 topping= input("To add pepperoni , Press Y or N ")
 cheese= input("To add cheese , Press Y or N ")
 print("Welcome to our Pizza Outlet")
+
 bill = 0
 
 # Pizza size
 if user == "S":
+    
     bill += 15
+
 elif user == "M":
+    
     bill += 20
+
 elif user == "L":
+    
     bill += 25
 #we can either write billl = bill + 25 or straight bill +=3 , both are same.
 # Pepperoni
+
 if topping == "Y":
+    
     if user == "S":
+        
         bill += 2
+    
     else:
+        
         bill += 3
 
 # Cheese
+
 if cheese == "Y":
+    
     bill += 1
 
 print(f"Your final bill is: ${bill}")
