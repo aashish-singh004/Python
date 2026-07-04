@@ -35,6 +35,9 @@ for number in range(1,10):
 print ("number") # output will be 1,2,3,4,5,6,7,8,9, not 10 , also if we do range(1,11,3) - the output will be 1,4,7,10 as we changed the stepsize to 3 , by default its
 +1  but now+3
 
+
+while i created a password generator, i used a command like .join() which is instered inside a variable like password= "".join(password) it joined all the strings and made
+a single string. 
     
      
 
