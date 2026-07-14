@@ -1,1 +1,2 @@
-
+Everything was good , just got busy for few days cause of shopping, personal life things as am going to lithuania in august 2026 :) but anyways, to achieve my long term goals , I have to complete python, ccna and revise linux again before september so can focus on university stuff too then cloud security engineer prep, then oscp etc etc.
+To future me- Whenver you are stuck, and face problems in life, or in study. Just remember- You have came too far and risked everything so dont quit..
